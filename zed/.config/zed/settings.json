@@ -1,0 +1,97 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "autosave": "on_focus_change",
+  "window_decorations": "client",
+  "bottom_dock_layout": "contained",
+  "preview_tabs": {
+    "enabled": false
+  },
+  "tab_bar": {
+    "show": false
+  },
+  "title_bar": {
+    "show_menus": false,
+    "show_branch_status_icon": false
+  },
+  "debugger": {
+    "button": true
+  },
+  "search": {
+    "button": false
+  },
+  "status_bar": {
+    "show_active_file": true,
+    "line_endings_button": false,
+    "cursor_position_button": false,
+    "active_language_button": false
+  },
+  "agent": {
+    "button": false,
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "collaboration_panel": {
+    "button": false
+  },
+  "git_panel": {
+    "status_style": "icon",
+    "dock": "left"
+  },
+  "outline_panel": {
+    "button": false
+  },
+  "project_panel": {
+    "button": true,
+    "hide_root": true,
+    "indent_guides": {
+      "show": "always"
+    },
+    "git_status_indicator": false,
+    "diagnostic_badges": true,
+    "scrollbar": {
+      "show": "never",
+      "horizontal_scroll": false
+    },
+    "bold_folder_labels": false,
+    "git_status": true,
+    "folder_icons": true,
+    "file_icons": true,
+    "dock": "left"
+  },
+  "terminal": {
+    "button": true,
+    "show_count_badge": true,
+    "cursor_shape": "bar"
+  },
+  "proxy": "",
+  "disable_ai": true,
+  "buffer_font_family": ".ZedMono",
+  "icon_theme": {
+    "mode": "system",
+    "light": "Zed (Default)",
+    "dark": "Zed (Default)"
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+    "anthropic_retention": false
+  },
+  "session": {
+    "trust_all_worktrees": false
+  },
+  "base_keymap": "JetBrains",
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "theme": {
+    "mode": "dark",
+    "light": "Noctalia Light",
+    "dark": "Noctalia Dark",
+  },
+}
